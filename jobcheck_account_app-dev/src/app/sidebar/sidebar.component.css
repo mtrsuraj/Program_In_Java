@@ -1,0 +1,24 @@
+
+.icon{
+    
+    padding-left: 30px;
+    background: url(../../assets/icons/search-icon.svg) no-repeat left;
+    background-size: 20px;
+     color:rgba(182, 176, 176, 0.938);
+     align-self: stretch;
+  
+
+}
+
+.textConverter{
+    text-transform: uppercase;
+}
+
+/* @font-face {
+    font-family: 'style';
+    src: url('/assets/DancingScript-VariableFont_wght.ttf');
+} */
+
+/* .textStyle{
+    font-family: style;
+} */

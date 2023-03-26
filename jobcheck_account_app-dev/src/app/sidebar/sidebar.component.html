@@ -1,0 +1,162 @@
+<div class="ml-20 m-4 sm:m-4 md:m-4 lg:m-4 xl;m-4 sm:ml-4 md:ml-10 lg:ml-20 xl:ml-20 ">
+    <a routerLink="">
+      <i class="fa fa-home text-xl cursor-pointer text-gray-500"  aria-hidden="true"></i>
+    </a>
+      <i class="fa fa-chevron-right text-sm text-gray-400  m-4" aria-hidden="true"></i>
+      <span class= " text-blue-600  cursor-pointer">Profile Search...</span>
+      <p class="text-2xl font-mono font-bold cursor-pointer">Profile Search</p>
+      <p  class="text-lg text-gray-400">Search from over 100,000* profiles to find your perfect candidate </p>
+      <input type="text" class=" icon search-length  sm:w-auto h-14 border-4  p-4 text-black textConverter  w-[40rem] rounded-md md:w-[30rem] lg:w-[35rem] xl:w-[30rem]" placeholder="Must include keywords..."> 
+      <button class=" h-14 w-[14rem] sm:w-20 m-4 bg-sky-700 text-white rounded-md md:w-[10rem] lg:w-[13rem] xl:w-[13rem]">Search</button>
+   </div>
+  
+      <div class="m-4  ml-20 md:ml-10 sm:grid sm:grid-cols-2 sm:grid-flow-row sm:gap-4 md:grid md:grid-cols-2 md:grid-flow-row md:gap-4  grid grid-rows-3 grid-flow-col gap-4 sm:ml-4">
+          <div class=" bg-white sm:col-span-2 md:col-span-2 row-span-3 rounded-md ">
+            <!-- <p>filter</p> -->
+           <div class="justify-around flex sm:flex sm:justify-around  md:flex md:justify-between lg:justify-between xl:justify-between text-lg">
+            <button class=" h-10 w-[20rem] sm:w-20 md:w-[25rem] lg:w-[15rem] xl:w-[16rem]   py-2 "><i class="fa fa-filter" aria-hidden="true"></i>&nbsp;Filter
+            </button>
+            <button class=" h-10  w-[20rem] sm:w-20 md:w-[25rem] xl:w-[16rem]  md:bg-slate-100 lg:bg-slate-100  lg:w-[15rem] md:rounded-t-none md:rounded-b-md lg:rounded-t-none lg:rounded-b-md xl:rounded-t-none xl:rounded-b-md py-2  "><i class="fa fa-whatsapp" aria-hidden="true"></i> Chat
+            </button>
+          </div>
+          <br>
+          <div class="mx-2 sm:mx-2 ml-8">
+            
+            <!-- <form [formGroup]="filterForm" (ngSubmit)="onSubmit()"> -->
+          <div class="flex justify-between sm:text-base sm:text-gray-500 text-lg">
+            <span>5 Filter Applied</span>
+            <span>Recent</span>
+          </div>
+          <hr>
+          <br>
+          <label class="text-lg sm:text-base ">Experience</label><br>
+          <!-- <div class="flex justify-around"> -->
+           <input  type="text" class="w-[15rem] sm:h-10 md:h-12 md:w-52 lg:w-[10rem] xl:w-[10rem] h-12 border-2 rounded-lg p-2 text-xl placeholder:text-red-300" placeholder="Min" required>
+          <span class="text-xl sm:text-base sm:ml-32 md:m-4 m-8">to</span>
+          <input  type="text" class="w-[15rem] sm:h-10 md:h-12 md:w-52 lg:w-[10rem] xl:w-[10rem] h-12 border-2 rounded-lg p-2 text-xl" name="" id="" placeholder="Max">
+        <!-- </div> -->
+            <br>
+            <br>
+          <p class="mt-8 sm:text-base text-lg">Current CTC</p>
+          <input  type="text" class="w-[15rem] sm:h-10 md:h-12 md:w-52 lg:w-[10rem] xl:w-[10rem] h-12 border-2 rounded-lg p-2 text-xl" placeholder="Min">
+          <span class="text-xl sm:text-base sm:ml-32 md:m-4 m-8">to</span>
+          <input  type="text" class="w-[15rem] sm:h-10 md:h-12 md:w-52 lg:w-[10rem] xl:w-[10rem] h-12 border-2 rounded-lg p-2 text-xl" name="" id="" placeholder="Max">
+          <br>
+          <br>
+          <div class="flex justify-between sm:text-base text-lg">
+            <span>Notice Period</span>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </div>
+  
+          <div class="my-4 sm:text-base text-lg">
+            <input type="checkbox" class="w-8 h-5 sm:w-4 " name="" id=""> <15 days
+            <br>
+            <input type="checkbox" class="w-8 h-5 sm:w-4" name="" id=""> 1 month
+            <br>
+            <input type="checkbox" class="w-8 h-5 sm:w-4" name="" id=""> 2 month
+            <br>
+            <input type="checkbox" class="w-8 h-5 sm:w-4" name="" id=""> 3 month
+            <br>
+            <input type="checkbox" class="w-8 h-5 sm:w-4" name="" id=""> More than 3 months
+          </div>
+          <div class="flex justify-between sm:text-base text-lg">
+            <span>Last Active</span>
+            <i class="fa fa-chevron-down " aria-hidden="true"></i>
+          </div>
+          <div class="my-4 text-lg sm:text-base" >
+            <input type="checkbox" class="w-8 h-5 sm:w-4" name="" id=""> <7 days
+            <br>
+            <input type="checkbox" class="w-8 h-5 sm:w-4" name="" id=""> <14 days
+            <br>
+            <input type="checkbox" class="w-8 h-5 sm:w-4" name="" id=""> <1  month
+            <br>
+            <input type="checkbox" class="w-8 h-5 sm:w-4" name="" id=""> >1 month
+            <br>
+            <input type="checkbox" class="w-8 h-5 sm:w-4" name="" id=""> More than 3 months
+          </div>
+          <div class="flex justify-between text-lg sm:text-base">
+            <span>Preferred Location</span>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </div>
+          <br>
+          <div class="flex justify-center">
+          <input type="text" class=" icon  w-96 sm:h-10  md:h-12 border-2 xl:w-[20rem] h-12 p-2 text-lg  rounded-md " placeholder="Search. . ."> 
+        </div>
+  
+          <div class="flex justify-between text-lg sm:text-base mt-8">
+            <span>Role</span>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </div>
+          <hr>
+          <br>
+          <div class="flex justify-center  sm:mt-2 my-8 md:mt-4 xl:mt-2 mt-2">
+          <button class=" h-12 w-[15rem] sm:h-10 md:w-48 md:h-12  bg-sky-700 xl:w-[10rem] text-white text-lg rounded-md ">Apply</button>
+        </div>
+      <!-- </form> -->
+        </div>
+  
+            </div>
+            
+            
+          
+           <!-- <hr> -->
+           <!-- <p class="w-auto h-10  py-2 text-lg bg-gray-100">6 Recommended Condidates</p> -->
+             <div class="rounded-md sm:col-span-2 md:col-span-2 " *ngFor="let item of userProfileDetails">
+              <!-- <p class="w-auto h-10  py-2 text-lg bg-gray-100">6 Recommended Condidates</p> -->
+            <div class=" bg-white rounded-md" >
+              <div class=" flex justify-between flex-wrap px-2 mx-auto "  >
+                <div class="md:w-1/2 md:pr-1 flex md:border-r ">
+                  <div class="mt-4 mr-8 sm:mr-6">
+                    <img class="rounded-full w-20 mb-4" src="{{item.avatar}}" alt="img.png">
+                  <p class="text-xs text-gray-500">Last Active</p>
+                  <p class="text-xl sm:text-base pb-4">2d ago</p>
+                  <p class="text-xs text-gray-500">Profile Last Updated</p>
+                  <p class="text-xl sm:text-base">7 days ago</p>
+                </div>
+                <div class="w-auto mt-4 ">
+                  <span class=" text-2xl sm:text-xl">{{item.name}}</span> <sup class="m-2 text-green-500">88% Profile Match</sup>
+                  <p class="my-2 sm:text-xs ">{{item.post}}</p>
+                  <P class="my-2 sm:text-xs "><i class="fa fa-envelope-o" aria-hidden="true"></i> {{item.email}} <i class="fa fa-check-circle-o text-green-500" aria-hidden="true"></i></P>
+                  <p class="my-2 sm:text-xs "><i class="fa fa-phone" aria-hidden="true"></i> {{item.phone}} <i class="fa fa-check-circle-o text-green-500" aria-hidden="true"></i></p>
+                  <span class="my-2 sm:text-xs "><i class="fa fa-suitcase my-2" aria-hidden="true"></i> {{item.experience}}</span> <span class="mx-2 sm:mx-2 my-2 sm:text-xs "><i class="fa fa-database my-2 sm:text-xs " aria-hidden="true"></i> {{item.salary}}</span>
+                  <p class="my-2 sm:text-xs "><i class="fa fa-map-marker" aria-hidden="true"></i> {{item.address}}</p>
+                  <p class="my-2 sm:text-xs "><i class="fa fa-book" aria-hidden="true"></i> {{item.education}}</p>
+  
+                </div>
+              
+                </div>
+                <div class=" flex  grid-cols-2  grid-flow-col gap-2 md:w-1/2 md:pl-12" >
+                  <div class=" w-auto mt-4">
+                    <p class="text-gray-500">Keys Skills</p>
+                    
+                    <p class="text-lg sm:text-base">Design, Product, Marketing, Management</p>
+                    
+                    <p class="text-gray-500 ">Preferred Locations</p>
+                    
+                    <p class="text-lg sm:text-base">Bengaluru, Mumbai, Pune</p>
+                    
+                    <p class="text-gray-500 ">Expected CTC</p>
+                    
+                    <p class="text-lg sm:text-base">10,00,000</p>
+                  
+                    <p class="text-gray-500 ">Notice Period</p>
+                    <p class="text-lg sm:text-base">30 days</p>
+  
+                  </div>
+                  <div class="   sm:w-10">
+                   <p><i class="fa fa-ellipsis-v align-top m-4" aria-hidden="true"></i></p> 
+                   <p> <i class="fa fa-share-square-o align-bottom m-4" aria-hidden="true"></i></p> 
+                   <p> <i class="fa fa-download align-bottom m-4" aria-hidden="true"></i></p> 
+                   <p> <i class="fa fa-plus-square-o m-4" aria-hidden="true"></i>  </p> 
+                   <p> <i class="fa fa-envelope-o m-4" aria-hidden="true"></i> </p> 
+                   <p> <i class="fa fa-share-alt m-4" aria-hidden="true"></i> </p> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- </div> -->
+        </div>
+             </div>
+  
+  
+ <!-- <router-outlet></router-outlet> -->
