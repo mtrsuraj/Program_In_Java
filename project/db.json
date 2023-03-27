@@ -1,0 +1,50 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name":"Suraj",
+      "post":"UX Designer at UntitleUI",
+      "email":"suraj@untitled.com",
+      "phone":"7827392739",
+      "experience":"3 yesrs exp",
+      "salary": "8,00,000",
+      "address":"Bengalore, Karntka",
+      "education":"BTech in Computer Science",
+      "avatar":"./assets/icons/suraj _pic.jpeg"
+    },
+    {
+      "id": 2,
+      "name":"suman",
+      "post":"UX Dev at UntitleUI",
+      "email":"suman@untitled.com",
+      "phone":"7829392739",
+      "experience":"2 yesrs exp",
+      "salary": "6,00,000",
+      "address":"Bengalore, Karntka",
+      "education":"BTech in Computer Science",
+      "avatar":"./assets/icons/suraj _pic.jpeg"
+    },
+    {
+      "id": 3,
+      "name":"Mayank raj",
+      "post":"SDE at UntitleUI",
+      "email":"mayank@untitled.com",
+      "phone":"9867392739",
+      "experience":"4 yesrs exp",
+      "salary": "9,00,000",
+      "address":"Chennai, Hydrabad",
+      "education":"BTech in EEe",
+      "avatar":"./assets/icons/suraj _pic.jpeg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
