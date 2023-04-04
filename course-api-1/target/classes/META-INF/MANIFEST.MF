@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: surajmtr
+Build-Jdk: 17.0.6
+Implementation-Title: Java Brains Course API-1
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: org.techinfo.quickstart
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/course-api-1
+Created-By: Maven Integration for Eclipse
+

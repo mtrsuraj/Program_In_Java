@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: surajmtr
+Build-Jdk: 17.0.6
+Implementation-Title: Java Brain Course API
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: org.techinfo
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/course-api/
+Created-By: Maven Integration for Eclipse
+
