@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:context=" http://www.springframework.org/schema/context" 
+xmlns:p="http://www.springframework.org/schema/p" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd 
+http://www.springframework.org/schema/context 
+http://www.springframework.org/schema/context/spring-context.xsd"> 
+
+
+	<bean class="corn.springcore.springcore.collections.CollectionsInSpring" name="emp1">
+	
+	<property name="eName" value="Mohan"/>
+	<property name="phone">
+		<list>
+			<value>78278292</value>
+			<value>899223</value>
+			<value>919873</value>
+			<null/>
+		</list>
+	
+	</property>
+	<property name="address">
+		<set>
+			<value>delhi</value>
+			<value>kanpur</value>
+			<value>patna</value>
+		</set>
+	</property>
+	<property name="cources">
+	 <map>
+	 <entry key="java" value="2-month"/>
+	 <entry key="py" value="1.3month"/>
+	 <entry key="c++" value="3month"/>
+	 </map>
+	</property>
+	
+	</bean>
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- this is our bean -->	
+  <!-- 3rd way using p schema  -->
+  <!-- 
+  
+	<bean class="corn.springcore.springcore.Student" name="student1" p:studentId="222" p:studentName="dhoni" p:studentAddress="India" />
+	<bean class="corn.springcore.springcore.Student" name="student2" p:studentId="2222" p:studentName="dhoni2" p:studentAddress="India2" />
+	<bean class="corn.springcore.springcore.Student" name="student3" p:studentId="22222" p:studentName="dhoni3" p:studentAddress="India3" />
+   -->
+			
+		
+		<!--   
+		
+		<property name="studentId">
+			<value>22344</value>
+		</property>
+		<property name="studentName">
+			<value>Durgesh Tiwari</value>
+		</property>
+		<property name="studentAddress">
+			<value>Delhi</value>
+		</property>
+		
+		 -->
+		 <!-- 2nd way -->
+		<!-- 
+		
+		 <property name="studentId" value="123"/>
+		 <property name="studentName" value="Ram Sita"/>
+		 <property name="studentAddress" value="Patna"/>
+	
+	</bean>
+	
+	<bean class="corn.springcore.springcore.Student" name="student2">
+		 <property name="studentId" value="321"/>
+		 <property name="studentName" value="Shiva"/>
+		 <property name="studentAddress" value="Delhi"/>
+	
+	</bean>
+	
+	<bean class="corn.springcore.springcore.Student" name="student3">
+		<property name="studentId" value="234"/>
+		<property name="studentName" value="Mohit Sharma"/>
+		<property name="studentAddress" value="Motihari"/>
+	</bean>
+		 -->
+		 
+
+</beans>
